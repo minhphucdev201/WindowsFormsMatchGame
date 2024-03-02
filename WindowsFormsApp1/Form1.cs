@@ -11,9 +11,9 @@ namespace WindowsFormsApp1
 
         private int score = 0;
         private int level = 1;
-        private int rows = 2;
+        private int rows = 4;
         private int cols = 3;
-        private int DefaultCardSize = 500;
+        private int DefaultCardSize = 200;
         private  int CardWidth = 0;
        
         private const int HideCardsDelay = 1000;
@@ -192,7 +192,7 @@ namespace WindowsFormsApp1
                                 if (level < 5) // Level tối đa
                                 {
                                     level++;
-                                 
+                                   
                                     cols++;
                                     Controls.Clear();
                                     InitializeGame();
